@@ -1,0 +1,47 @@
+*{
+    font-size: 18px;
+}
+
+
+
+header,
+main {
+  background-color: RGB(255, 194, 52);
+}
+
+.imgp {
+  position: relative;
+}
+
+.img-preco {
+  position: absolute;
+  bottom: 0;
+}
+.tp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    color: RGB(65,31,9);
+}
+
+.tp h3{
+    border: 2px dashed RGB(65,31,9);
+    font-size: 1rem;
+    display: flex;
+    width: max-content;
+    padding: 0.8rem;
+}
+
+.tp h1{
+    font-size: 5rem;
+}
+
+.tp h2{
+    font-size:3rem;
+}
+
+.dvr span{
+    color: RGB(65,31,9);
+    font-weight: bold;
+}
