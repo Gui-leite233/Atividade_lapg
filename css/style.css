@@ -1,8 +1,6 @@
-*{
-    font-size: 18px;
+* {
+  font-size: 18px;
 }
-
-
 
 header,
 main {
@@ -17,31 +15,56 @@ main {
   position: absolute;
   bottom: 0;
 }
-.tp{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    color: RGB(65,31,9);
+.tp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  color: RGB(65, 31, 9);
 }
 
-.tp h3{
-    border: 2px dashed RGB(65,31,9);
-    font-size: 1rem;
-    display: flex;
-    width: max-content;
-    padding: 0.8rem;
+.tp h3 {
+  border: 2px dashed RGB(65, 31, 9);
+  font-size: 1rem;
+  display: flex;
+  width: max-content;
+  padding: 0.8rem;
 }
 
-.tp h1{
-    font-size: 5rem;
+.tp h1 {
+  font-size: 5rem;
 }
 
-.tp h2{
-    font-size:3rem;
+.tp h2 {
+  font-size: 3rem;
 }
 
-.dvr span{
-    color: RGB(65,31,9);
-    font-weight: bold;
+.dvr span {
+  color: RGB(65, 31, 9);
+  font-weight: bold;
+}
+
+#hamburguer-today{
+  color: white;
+}
+
+.hamb-esquerda {
+  background-image: url('../img/sessao1/fundo1.png');
+  width: 549px;
+  height: 387px;
+  padding: 1rem;
+}
+
+.hamb-direita-img1{
+  background-image: url('../img/sessao1/fundo2.png');
+  width: 548px;
+  height: 177px;
+  padding: 1rem;
+}
+
+.hamb-esquerda-img2{
+  background-image: url('../img/sessao1/fundo3.png');
+  width: 548px;
+  height: 177px;
+  padding: 1rem;
 }
