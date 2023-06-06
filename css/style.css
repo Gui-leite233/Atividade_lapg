@@ -44,27 +44,101 @@ main {
   font-weight: bold;
 }
 
-#hamburguer-today{
+#hamburguer-today {
   color: white;
 }
 
 .hamb-esquerda {
-  background-image: url('../img/sessao1/fundo1.png');
+  background-image: url("../img/sessao1/fundo1.png");
   width: 549px;
   height: 387px;
   padding: 1rem;
 }
 
-.hamb-direita-img1{
-  background-image: url('../img/sessao1/fundo2.png');
+.hamb-direita-img1 {
+  background-image: url("../img/sessao1/fundo2.png");
   width: 548px;
   height: 177px;
   padding: 1rem;
 }
 
-.hamb-esquerda-img2{
-  background-image: url('../img/sessao1/fundo3.png');
+.hamb-esquerda-img2 {
+  background-image: url("../img/sessao1/fundo3.png");
   width: 548px;
   height: 177px;
   padding: 1rem;
+}
+
+.menu-textos {
+  color: RGB(65, 31, 9);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-textos h4 {
+  font-size: 1rem;
+  background-color: RGB(255, 194, 52);
+  display: flex;
+  width: max-content;
+  padding: 0.5rem;
+}
+
+.menu-textos h3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.menu-textos p {
+  padding: 0rem 5rem 2rem 5rem;
+}
+
+.card {
+  color: RGB(65, 31, 9);
+  border: none;
+  height: 450px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 2rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.card-text {
+  font-size: 0.8rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.btn-primary {
+  background-color: RGB(223, 28, 28);
+  border: none;
+  font-weight: bold;
+  width: 70%;
+  border-radius: 0px;
+}
+
+.btn-primary:hover {
+  transition: 0.3s;
+  background-color: RGB(255, 194, 52);
+}
+
+@media (min-width: 980px) {
+  .card-img-top {
+    width: 40%;
+  }
 }
